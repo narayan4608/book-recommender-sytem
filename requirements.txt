@@ -1,0 +1,5 @@
+
+numpy
+
+#local package
+-e .

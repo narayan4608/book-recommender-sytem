@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/narayan/Desktop/book recommendation/env
+exec_prefix=/Users/narayan/Desktop/book recommendation/env
+libdir=/Users/narayan/Desktop/book recommendation/env/lib
+includedir=/Users/narayan/Desktop/book recommendation/env/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

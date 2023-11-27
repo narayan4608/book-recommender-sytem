@@ -1,0 +1,13 @@
+prefix=/Users/narayan/Desktop/book recommendation/envv
+exec_prefix=/Users/narayan/Desktop/book recommendation/envv
+libdir=/Users/narayan/Desktop/book recommendation/envv/lib
+sharedlibdir=/Users/narayan/Desktop/book recommendation/envv/lib
+includedir=/Users/narayan/Desktop/book recommendation/envv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

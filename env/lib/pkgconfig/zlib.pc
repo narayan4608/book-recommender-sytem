@@ -1,0 +1,13 @@
+prefix=/Users/narayan/Desktop/book recommendation/env
+exec_prefix=/Users/narayan/Desktop/book recommendation/env
+libdir=/Users/narayan/Desktop/book recommendation/env/lib
+sharedlibdir=/Users/narayan/Desktop/book recommendation/env/lib
+includedir=/Users/narayan/Desktop/book recommendation/env/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
